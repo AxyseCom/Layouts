@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 4000px;
+  background-color: #63AFD0;
+}
+h1, h2, h3, h4, h5 {
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+ul{
+  padding-left: 0;
+  margin-left: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.panel{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  max-height:1045px;
+  width: 150px;
+  background: #63afd086;
+  z-index: 200;
+}
+
+.fixed-panel {
+  position: absolute;
+  bottom: 86px;
+  left: 0px;
+  height: 535px;
+  width: 150px;
+  z-index: 200;
+}
+
+.fixed-panel h3 {
+  position: absolute;
+  top: 64px;
+  left: -47px;
+  height: 25px;
+  width: 242px;
+  transform: rotate(-90deg);
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #c4c4c4;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  z-index: 200;
+}
+
+.fixed-panel hr {
+  position: absolute;
+  left: 33px;
+  top: 260px;
+  transform: rotate(90deg);
+  width: 80px;
+  height: 3px;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #c4c4c4; /* Цвет линии для остальных браузеров */
+  background-color: #c4c4c4; /* Цвет линии для браузера Firefox и Opera */
+  z-index: 200;
+}
+
+.fixed-panel ul {
+  position: absolute;
+  bottom: 0px;
+  left: 39%;
+  text-align: center;
+  font-size: 26px;
+  color: #c4c4c4;
+  z-index: 200;
+}
+
+.fixed-panel li {
+  margin-top: 11px;
+}
+
+.fixed-panel a {
+  color: #c4c4c4;
+}
+
+.fixed-panel a:hover{
+  color: #D1A954;
+}
+/* ######### */
+/* MAIN PAGE */
+/* ######### */
+.main-page{
+  position: relative;
+  height: 100vh;
+  max-height: 1045px;
+  background-image: url("../assets/img/main-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-shadow{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #63afd056;
+  z-index: 100;
+}
