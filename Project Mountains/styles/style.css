@@ -119,6 +119,7 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .main-shadow {
   position: absolute;
@@ -220,6 +221,11 @@ button:focus {
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
   margin-top: 615px;
+}
+@media screen and (max-width: 1420px){
+  .main-carousel {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1140px) {
