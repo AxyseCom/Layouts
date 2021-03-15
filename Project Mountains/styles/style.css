@@ -20,6 +20,9 @@ ul{
 li {
   list-style: none;
 }
+button:focus{
+  outline: none;
+}
 
 .panel{
   position: fixed;
@@ -48,7 +51,7 @@ li {
   height: 25px;
   width: 242px;
   transform: rotate(-90deg);
-  font-family: Open Sans Condensed;
+  font-family: "Open Sans Condensed";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -109,5 +112,49 @@ li {
   height: 100%;
   width: 100%;
   background-color: #63afd056;
-  z-index: 100;
+}
+.header-navigation{
+  padding: 0;
+}
+.navbar-toggler{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  line-height: 0.3;
+  z-index: 10000;
+}
+.navbar-toggler-icon{
+  height: 3px;
+  color: #c4c4c4;
+  background-color: #c4c4c4;
+}
+
+.header-navigation a{
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+.header-navigation a:hover{
+  color: #D1A954;
+}
+
+.main-menu li:last-child a{
+  margin-left: 167px;
+  letter-spacing: 0.4px;
+}
+.main-menu li:last-child a::after{
+  content: "";
+  display: block;
+  width: 119px;
+  height: 2px;
+  background-color: #D1A954;;
+}
+
+.main-menu{
+  margin-left: 405px;
+  margin-top: 39px;
 }
