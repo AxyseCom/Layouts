@@ -3,7 +3,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  height: 4000px;
   background-color: #63afd0;
 }
 h1,
@@ -179,7 +178,7 @@ button:focus {
   top: 384px;
   left: 404px;
   font-size: 64px;
-  color: #c4c4c4;
+  color: #fff;
 }
 .main-description {
   position: absolute;
@@ -188,7 +187,7 @@ button:focus {
   height: 79px;
   width: 540px;
   font-size: 14px;
-  color: #c4c4c4;
+  color: #fff;
 }
 
 #preview {
@@ -219,18 +218,272 @@ button:focus {
   background-color: #d1a954;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   margin-top: 615px;
 }
-@media screen and (max-width: 1420px){
+
+/* #################### */
+/*       about          */
+/* #################### */
+
+.about-box {
+  min-height: 457px;
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+  margin-top: 150px;
+  color: #fff;
+  font-family: "Open Sans Condensed";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-box h3 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.about-box img {
+  float: left;
+  height: 292px;
+  width: 350px;
+  margin-left: 30px;
+}
+
+.about-box h3::first-letter {
+  color: #d1a954;
+}
+
+.about-description {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.about-description h4 {
+  font-family: "Open Sans Condensed";
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 10%;
+}
+
+.project-description {
+  float: left;
+  width: 445px;
+}
+.project-description p {
+  margin-top: 40px;
+  font-family: "Open Sans Condensed";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.project-numbers {
+  float: left;
+  margin-left: 30px;
+  width: 255px;
+}
+.fa-book {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 100;
+}
+#circulation {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+#circulation span {
+  color: #d1a954;
+}
+.fa-globe {
+  margin-top: 21px;
+  font-size: 40px;
+}
+
+#translate-book {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+#translate-book span {
+  color: #d1a954;
+}
+
+/* ##################### */
+/*     out-articles      */
+/* ##################### */
+
+.our-articles-block {
+  width: 100%;
+  margin: auto;
+  margin-top: 68px;
+  color: #fff;
+  font-family: "Open Sans Condensed";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.our-articles-block h3 {
+  font-size: 48px;
+  font-weight: 300;
+}
+.our-articles-block h3 span {
+  color: #d1a954;
+}
+
+.articles-container {
+  margin-top: 100px;
+}
+
+.article-poster {
+  float: left;
+  height: 550px;
+  width: 442px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.article-poster a h5 {
+  position: absolute;
+  top: 40px;
+  left: 55px;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.article-poster a h5:hover {
+  color: #d1a954;
+}
+
+.month {
+  position: absolute;
+  left: 46px;
+  bottom: -56px;
+  height: 120px;
+  width: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.month h6 {
+  transform: rotate(-90deg);
+}
+
+.article-poster img {
+  height: 550px;
+  width: 442px;
+}
+
+/* ##################### */
+/*     partners block    */
+/* ##################### */
+
+.partners-block {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.partners-block h3 {
+  margin-top: 137px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.partners-block h3 span {
+  color: #d1a954;
+}
+
+.partners-container {
+  margin-top: 150px;
+}
+
+.partner-logo-box {
+  font-size: 100px;
+  font-weight: normal;
+  color: #fff;
+}
+/* ##################### */
+/*         mail          */
+/* ##################### */
+
+.mail-block {
+  width: 100%;
+  margin: auto;
+  margin-top: 68px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: "Open Sans Condensed";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mail-block h3 {
+  margin-top: 137px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.mail-block h3 span {
+  color: #d1a954;
+}
+
+.mail-block form {
+  margin-top: 70px;
+}
+
+.form-control {
+  width: 50%;
+  margin: auto;
+}
+/*поле для текста*/
+#exampleFormControlTextarea1 {
+  height: 150px;
+}
+
+@media screen and (max-width: 1420px) {
   .main-carousel {
     display: none;
   }
 }
 
 @media screen and (max-width: 1140px) {
+  .main-page h1 {
+    left: 25%;
+  }
+  .main-description{
+    left: 25%;
+  }
+  #preview{
+    left: 25%;
+  }
+  .main-menu {
+    margin-left: 245px;
+    margin-top: 47px;
+}
   .main-menu li:last-child a {
     margin-left: 0px;
     letter-spacing: 0.4px;
+  }
+  .about-box img {
+    display: none;
+  }
+  .about-description div {
+    float: none;
+    margin: auto;
+    text-align: center;
   }
 }
