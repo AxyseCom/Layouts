@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+header {
+  background-image: url(../img/header-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.top-header {
+  height: 670px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(9,5,48,0.8), rgba(49,29,94,0.8 ));
+}
+
+.top-cont {
+
+}
+
+.logo {
+  height: 60px;
+  background: url(../img/logo.png);
+  background-repeat: no-repeat;
+  position: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.logo h1 {
+  color: #0ed5d0;
+  font-weight:lighter;
+  font-size: 30px;
+  margin-left: 40px;
+  line-height: 45px;
+}
+
+.top-menu ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.top-menu li {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  list-style-type: none;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 70px;
+  margin-left: 18px;
+}
+
+.top-menu li:hover {
+  color: #0ed5d0;
+}
+
+.slogan {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.slogan hr {
+  width: 50px;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #0ed5d0; /* Цвет линии для остальных браузеров */
+  background-color: #0ed5d0; /* Цвет линии для браузера Firefox и Opera */
+  height: 2px; /* Толщина линии */
+  margin-top: 30px;
+}
+
+.slogan2 {
+  font-family: "Playfair Display";
+  font-size: 15px;
+  color: #d6d5db;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.btn-box {
+  text-align: center;
+}
+
+#learn-more {
+  height: 40px;
+  background: transparent;
+  color: #0ed5d0;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid #0ed5d0;
+  margin-top: 34px;
+}
+
+.pag {
+  margin-top: 125px;
+}
+
+.pag-box {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #0ed5d0;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.pag-box-active {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: #0ed5d0;
+  border: 1px solid #0ed5d0;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.firts-cont {
+  height: 400px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.content-logo {
+  height: 235px;
+  width: 100%;
+  background: url(../img/cont-logo.png);
+  background-repeat: no-repeat;
+  margin-left: 65px;
+  margin-top: 70px;
+}
+
+.cont-slogan {
+  margin-top: 70px;
+}
+
+.cont-slogan h2 {
+  color: #413d4b;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#cont-abzac {
+  color: #413d4b;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  line-height: 22px;
+}
+
+#cont-btn {
+  height: 40px;
+  background: transparent;
+  color: #0ed5d0;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid #0ed5d0;
+  margin-top: 30px;
+}
+
+.sect-play {
+  background-image: url(../img/sectplay.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box-play {
+  height: 550px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(9,5,48,0.8), rgba(49,29,94,0.8 ));
+}
+
+.play-icon {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 225px;
+  margin-bottom: 225px;
+}
+
+.player {
+  height: 100px;
+  width: 100px;
+  background: url(../img/play-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  margin: auto;
+  line-height: 95px;
+  text-align: center;
+}
+
+.player i {
+  margin-left: 4px;
+}
+
+.navig-box {
+  color: #78777b;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.navig-box h2 {
+  color: #413d4b;
+  font-family: "Playfair Display";
+  font-size: 22pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.navig-box p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navig-box hr {
+  width: 50px;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #c6c4c9; /* Цвет линии для остальных браузеров */
+  background-color: #c6c4c9; /* Цвет линии для браузера Firefox и Opera */
+  height: 2px; /* Толщина линии */
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.cont-icons {
+  margin-top: 80px;
+  margin: 80px;
+}
+
+.cont-icons  hr {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.ic-box {
+  text-align: center;
+  text-align-last:center;
+}
+
+.ic-box h3 {
+  color: #413d4b;
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.ic-box p {
+  color: #858585;
+  font-family: "Roboto";
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-bottom: 0px;
+}
+
+.first-line {
+  margin-top:
+}
+
+#web-ic {
+  height: 50px;
+  background: url(../img/web-deg.png);
+  background-color: ;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+#pen-ic {
+  height: 50px;
+  background: url(../img/pen-ic.png);
+  background-color: ;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+#mob-ic {
+  height: 50px;
+  background: url(../img/mob-ic.png);
+  background-color: ;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+#src-ic {
+  height: 50px;
+  background: url(../img/src-ic.png);
+  background-color: ;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+#game-ic {
+  height: 50px;
+  background: url(../img/game-ic.png);
+  background-color: ;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+#love-ic {
+  height: 50px;
+  background: url(../img/love-ic.png);
+  background-color: ;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.team-sect {
+  height: 710px;
+  width: 100%;
+  background: url(../img/team-sect.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-sect-grad {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(9,5,48,0.8), rgba(49,29,94,0.8 ));
+}
+
+.team-sect-top {
+  text-align: center;
+}
+
+.team-sect-top h3 {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 65px;
+}
+
+.team-sect-top p {
+  color: #f0eff1;
+}
+
+.team-sect-top hr {
+  width: 50px;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #655c80; /* Цвет линии для остальных браузеров */
+  background-color: #655c80; /* Цвет линии для браузера Firefox и Opera */
+  height: 2px; /* Толщина линии */
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.person-box {
+  text-align: center;
+}
+
+.person-box h4 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.person-box p {
+  color: #c1c1c8;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.person-box hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #655c80; /* Цвет линии для остальных браузеров */
+  background-color: #655c80; /* Цвет линии для браузера Firefox и Opera */
+  height: 2px; /* Толщина линии */
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.person-face {
+  height: 230px;
+  background: #ffffff;
+  position: absolute;
+  opacity: 1;
+  z-index: 10;
+  margin-top: 45px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.team-sect-bottom {
+  text-align: center;
+}
+
+.team-sect-bottom h3 {
+  color: #f3f3f3;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+#team-button {
+  height: 40px;
+  width: 140px;
+  background: transparent;
+  color: #00e0d0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #00e0d0;
+  margin-top: 28px;
+}
+
+.feedback-box {
+  height: 655px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.feedback-box h3 {
+  color: #413d4b;
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.client ul {
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.client {
+  display: inline-block;
+  text-align: center;
+}
+
+#cl-left {
+  float: right;
+}
+
+#cl-left li {
+  margin-bottom: 60px;
+}
+
+#zara, #mango {
+  margin-top: 0px;
+}
+
+#bil {
+  margin-top: -20px;
+}
+
+.client li {
+  list-style-type: none;
+  margin-top: 55px;
+}
+
+.right-img {
+  margin-left:
+}
+
+#name-feed {
+  margin-top: 0px;
+}
+
+.inp-feed {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #bcbbbe;
+  padding-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.inp-feed::-webkit-input-placeholder {
+  color: #bcbbbe;
+}
+
+#txt-feed {
+  height: 200px;
+  width: 100%;
+  border: 1px solid #bcbbbe;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+#txt-feed::-webkit-input-placeholder {
+  color: #bcbbbe;
+}
+
+#sub-btn {
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00e0d0;
+  border: 2px solid #00e0d0;
+  margin-top: 20px;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background: url(../img/footer-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.foot-grad {
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(9,5,48,0.8), rgba(49,29,94,0.8 ));
+  overflow: hidden;
+}
+
+.cont-foot {
+  margin-top: 70px;
+}
+
+#foot-logo {
+  margin-left: 0px;
+}
+
+#foot-logo h1 {
+  margin-left: 60px;
+}
+
+.logo-foot {
+  margin-top: 50px;
+}
+
+.foot-abz {
+  width: 280px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+.foot-abz p {
+  margin-bottom: 0px;
+}
+
+.foot-list {
+  margin-top: 80px;
+}
+
+.foot-list ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.foot-list li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.foot-list a {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+#second-line {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.our-stud {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.search-box input {
+  height: 40px;
+  width: 77%;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+.search-box  p {
+  margin-top: 40px;
+}
+
+.search-box button {
+  height: 40px;
+  width: 20%;
+  background: #ffffff;
+  opacity: 0.6;
+  font-size: 18px;
+  border: none;
+}
+
+.soc-icon {
+  margin-top: 25px;
+}
+
+.icon-box {
+  height: 35px;
+  width: 35px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 31px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#copyright {
+  width: 220px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-top: 70px;
+  margin-right: 0px;
+  float: right;
+}
