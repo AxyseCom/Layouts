@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
-
 body {
   margin: 0px;
   padding: 0px;
@@ -14,8 +13,9 @@ h5 {
   margin-bottom: 0px;
 }
 
-a {
+a, p {
   padding: 0px;
+  margin: 0;
 }
 
 ul {
@@ -36,6 +36,14 @@ button:focus {
   outline: none;
 }
 
+.container, .navbar, .container-fluid {
+  padding: 0;
+}
+.row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
 .header-container {
   position: relative;
 }
@@ -140,16 +148,14 @@ button:focus {
 
 .skills-block {
   position: relative;
-  display: inline-block;
   width: 100%;
 }
 
 .professional-skills {
+  position: inherit;
   margin: 0 auto;
   padding: 0;
   height: 571px;
-  min-width: 680px;
-  background-color: #d2c1c1;
 }
 
 .skills-container h5{
@@ -175,19 +181,212 @@ button:focus {
   background-color: #10c9c3;
 }
 
-.skills-poster {
-  height: 571px;
-  min-width: 680px;
-  margin: auto;
-  background-color: #e9e9e9;
-}
-
-.skills-container{
+.bg-pro-skills{
   position: absolute;
   top: 0px;
-  left: 10%;
-  right: 10%;
+  left: 0px;
+  height: 571px;
+  width: 50%;
+  background-color: #fff;
+  z-index: -1;
 }
+
+
+.skills-poster {
+  position: inherit;
+  padding: 0;
+  margin: 0;
+  height: 571px;
+  margin: auto;
+}
+
+.bg-skills-poster{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 571px;
+  width: 50%;
+  background-color: #e9e9e9;
+  z-index: -2;
+}
+
+.numbers-block{
+  min-height: 240px;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: #10c9c3;
+}
+
+.numbers-icon{
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+  padding-left: 3px;
+  min-width: 240px;
+}
+
+.numbers-icon:last-child{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.numbers-icon img {
+  float: left;
+  height: 40px;
+}
+
+.num-box {
+  float: left;
+  margin-left: 20px;
+}
+
+.num-box p:first-child{
+  margin-top: -4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  
+}
+
+.num-box p:last-child{
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.work-icon{
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  min-width: 345px;
+  background-color: #10c9c3;
+  overflow: hidden;
+}
+
+.work-icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.work-icon img:hover {
+  opacity: 0.7;
+  transition: opacity 0.5;
+}
+
+.load-more-cont {
+  text-align: center;
+}
+
+.load-more-cont button{
+  height: 100px;
+  margin: auto;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.load-more-cont button:hover{
+  background-color: #8e8e8e;
+  color: #191919;
+  border-radius: 0 0 30px 30px;
+  transition: background-color 0.5s, border-radius linear 0.3s;
+}
+
+.work-proc-block{
+  color: #191919;
+  text-align: center;
+}
+
+.work-proc-block h3 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+.work-proc-block p {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.video-container{
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.proc-video-box{
+  height: 570px;
+  padding: 0;
+}
+
+.service-block {
+  margin-top: 105px;
+}
+
+.service-block .row{
+  padding-top: 100px;
+}
+
+.service-block .row:last-child{
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+
+
+.service-icon{
+  height: 135px;
+  text-align: center;
+}
+
+
+.service-icon p{
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+
+.service-icon p:last-child{
+  margin-top: 20px;
+  font-size: 12px;
+  color: #8e8e8e;
+  text-transform: none;
+}
+
+.testimonial-block {
+  background-color: #10c9c3;
+}
+
+.carousel-item{
+  height: 330px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-item h5{
+  margin-top: 170px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.carousel-item p{
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.carousel-indicators li{
+  height: 6px;
+  width: 6px;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #8e8e8e;
+}
+
 
 @media screen and (max-width: 1420px) {
   .skills-poster, .professional-skills {
@@ -203,4 +402,11 @@ button:focus {
   .main-title {
     right: 25%;
   }
+
+  .progress {
+    height: 3px;
+    width: 262px;
+    margin-top: 20px;
+  }
+  
 }
