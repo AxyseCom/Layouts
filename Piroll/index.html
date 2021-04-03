@@ -27,22 +27,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="id1" href="#">Главная<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">О нас</a>
+                <a class="nav-link" id="id2" href="#">О нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Процесс</a>
+                <a class="nav-link" id="id3" href="#">Результаты</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Сервис</a>
+                <a class="nav-link" id="id4" href="#">Процесс</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Отзывы</a>
+                <a class="nav-link" id="id5" href="#">Клиенты</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Контакты</a>
+                <a class="nav-link" id="id6" href="#">Связаться</a>
               </li>
             </ul>
           </div>
@@ -232,11 +232,56 @@
             <p>Билл Гейтс</p>
           </div>
         </div>
-
         </a>
       </div>
     </div>
   </div>
+  <div class="clients-block">
+    <div class="container clients-container">
+      <div class="row">
+        <div class="col client-icon"><img src="./assets/img/1.png" alt=""></div>
+        <div class="col client-icon"><img src="./assets/img/2.png" alt=""></div>
+        <div class="col client-icon"><img src="./assets/img/3.png" alt=""></div>
+        <div class="col client-icon"><img src="./assets/img/4.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+  <div class="mail-block">
+    <div class="container">
+      <h3>Нужен проект?</h3>
+      <p>Напишите нам ваши пожелания и мы свяжемся с вами для обсуждения деталей.</p>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Ваше Имя</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Email</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputAddress">Ваш Тип Проекта</label>
+            <select id="inputState" class="form-control">
+              <option selected>Дизайн сайта</option>
+              <option selected>Вёрстка сайта</option>
+              <option selected>3D моделирование</option>
+              <option>SEO</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Ваши пожелания</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary" id="send-mail">Отправить</button>
+    </form>
+  </div>
+  <footer>
+    <h5>Created by Artem Artiugin</h5>
+    <p>Artiuga 2021 All rights reserved.</p>
+  </footer>
   <script src="./scripts/mainScript.js"></script>
 </body>
 

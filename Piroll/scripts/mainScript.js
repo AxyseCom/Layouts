@@ -4,25 +4,39 @@ $(".nav-link").click(function () {
   if (div_id === "id1") {
     $("html, body").animate(
       {
-        scrollTop: $(".about-block").offset().top, // класс объекта к которому приезжаем
+        scrollTop: $(".main-title").offset().top, // класс объекта к которому приезжаем
       },
       1000
     );
   } else if (div_id === "id2") {
     $("html, body").animate(
       {
-        scrollTop: $(".our-articles-block").offset().top, // класс объекта к которому приезжаем
+        scrollTop: $(".about-us-block").offset().top, // класс объекта к которому приезжаем
       },
       1000
     );
   } else if (div_id === "id3") {
     $("html, body").animate(
       {
-        scrollTop: $(".partners-block").offset().top, // класс объекта к которому приезжаем
+        scrollTop: $(".numbers-block").offset().top, // класс объекта к которому приезжаем
       },
       1000
     );
   } else if (div_id === "id4") {
+    $("html, body").animate(
+      {
+        scrollTop: $(".work-proc-block").offset().top, // класс объекта к которому приезжаем
+      },
+      1000
+    );
+  } else if (div_id === "id5") {
+    $("html, body").animate(
+      {
+        scrollTop: $(".clients-block").offset().top, // класс объекта к которому приезжаем
+      },
+      1000
+    );
+  } else if (div_id === "id6") {
     $("html, body").animate(
       {
         scrollTop: $(".mail-block").offset().top, // класс объекта к которому приезжаем
